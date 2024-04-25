@@ -11,7 +11,7 @@ console.log(randomNumber)
  * This function displays the slider value.
  */
 
-const number = document.getElementById('number').checked
+const number = document.getElementById('radio').checked
 
 function myButtonClicked() {
   alwaysOnButtonChecked = document.getElementById('on-check').checked
