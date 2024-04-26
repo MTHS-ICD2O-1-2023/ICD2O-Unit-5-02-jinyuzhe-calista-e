@@ -20,8 +20,8 @@ function myButtonClicked() {
     document.getElementById("positive-number").innerHTML =
     "<p>Value is: </p>" + randomNumber
   } else {
-    randomNumber = (-1 * randomNumber)
+    randomNumber2 = (-1 * randomNumber)
     document.getElementById("negative-number").innerHTML =
-    "<p>Value is: </p>" + randomNumber
+    "<p>Value is: </p>" + randomNumber2
   }
 }
